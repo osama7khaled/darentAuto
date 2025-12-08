@@ -1,0 +1,55 @@
+{
+  "base-url": {
+    "env": {
+      "arabic": "https://darent.com/ar"
+    }
+  },
+
+  "users": {
+    "validUser": {
+      "mobile": "000000098",
+      "otp": "8888"
+    },
+    "invalidUser": {
+      "mobile": "000000000",
+      "otp": "8899"
+    }
+  },
+
+  "login": {
+    "verificationButtonText": "تحقق"
+  },
+
+  "filters": {
+    "Apartment": "شقة",
+    "Villa": "فيلا",
+    "Chalet": "شاليه",
+    "Tent": "خيمة"
+  },
+
+  "payment": {
+    "visa": {
+      "cvv": "123"
+    }
+  },
+
+  "homePageTexts": {
+    "downloadApp": "تحميل التطبيق",
+    "searchPlaceholder": "اختر موقعاً",
+    "categories": {
+      "tent": "خيمة",
+      "chalet": "شاليه",
+      "villa": "فيلا",
+      "apartment": "شقة"
+    },
+
+    "featuredTitle": "الإقامات المميزة",
+
+    "bottomMenu": {
+      "explore": "الرئيسية",
+      "wishlist": "قائمة المفضلة",
+      "inbox": "المحادثات",
+      "account": "الحساب"
+    }
+  }
+}

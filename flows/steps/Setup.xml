@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Setup Driver" parallel="false">
+
+    <test name="Setup">
+        <parameter name="language" value="english"/>
+        <parameter name="branch" value="production"/>
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="base.Setup">
+                <methods>
+                    <include name="setUpLocalDriver"/>
+                    <include name="openWebsite"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

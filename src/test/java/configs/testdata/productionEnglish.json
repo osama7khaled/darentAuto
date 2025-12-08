@@ -1,0 +1,54 @@
+{
+  "base-url": {
+    "env": {
+      "english": "https://darent.com/en"
+    }
+  },
+  "users": {
+    "validUser": {
+      "mobile": "000000098",
+      "otp": "8888"
+    },
+    "invalidUser": {
+      "mobile": "000000000",
+      "otp": "8899"
+    }
+  },
+
+  "login": {
+    "verificationButtonText": "Verify"
+  },
+
+  "filters": {
+    "Apartment": "Apartment",
+    "Villa": "Villa",
+    "Chalet": "Chalet",
+    "Tent": "Tent"
+  },
+
+  "payment": {
+    "visa": {
+      "cvv": "123"
+    }
+  },
+
+  "homePageTexts": {
+    "downloadApp": "Download App",
+    "searchPlaceholder": "Select location",
+    "categories": {
+      "apartment": "Apartment",
+      "villa": "Villa",
+      "chalet": "Chalet",
+      "tent": "Tent"
+    },
+
+    "featuredTitle": "Featured Stays",
+
+    "bottomMenu": {
+      "explore": "Home",
+      "wishlist": "Wishlist",
+      "inbox": "Inbox",
+      "account": "Account"
+    }
+  }
+}
